@@ -1,0 +1,77 @@
+nav {
+  list-style-type: none;
+  padding: 12px;
+  background-color: rgb(104, 104, 104);
+  width: 100%;
+}
+nav a {
+  margin-left: 0px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+nav a:hover {
+  background-color: rgb(0, 75, 146);
+  padding: 11px 10px 12px 10px;
+}
+
+.color-box {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.heading {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(53, 53, 53);
+  margin-top: 100px;
+  font-size: 23px;
+}
+
+.text {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(53, 53, 53);
+  font-size: 14px;
+  text-align: center;
+  width: 20em;
+  margin: 20px auto;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+}
+
+.box1 {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  margin: 5px;
+  border: 2px solid rgb(184, 3, 3);
+}
+
+.box2 {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(177, 177, 177);
+  margin: 5px;
+  border: 2px solid rgb(54, 54, 54);
+}
+
+.box3 {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(255, 230, 0);
+  margin: 5px;
+  border: 2px solid rgb(54, 54, 54);
+}
+
+.box4 {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(255, 115, 0);
+  margin: 5px;
+  border: 2px solid rgb(54, 54, 54);
+}
